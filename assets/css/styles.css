@@ -1,0 +1,254 @@
+ body {
+ 	background: radial-gradient(circle, rgba(238,247,250,0.5), rgba(198,219,211,0.5));
+ 	margin: 0;
+ 	/*background: rgba(0, 0, 0, 0.5);*/
+ 	/*background: radial-gradient(circle, rgba(112,108,226,1) 1%, rgba(0,0,0,1) 42%);*/
+ 	background-size: cover;
+ 	background-position: center;
+ 	color: black;
+ 	font-family: 'Open Sans', sans-serif;
+ }
+
+
+ .header::after {
+ 	content: '';
+ 	height: 100vh;
+ 	width: auto;
+ 	overflow: hidden;
+ 	text-align: center;
+ 	/*background-image: url('/assets/img/header_bg.jpg');*/
+ 	background-image: radial-gradient(circle, rgba(48,43,189,0.7), rgba(11,10,18,0.7)), url(https://github.com/lucho1503/luismoreno.github.io/blob/master/imgs_back/header_bg.jpg?raw=true);
+ 	background-size: cover;
+ 	background-repeat: no-repeat;
+ 	background-position: center;
+ 	display: block;
+ 	align-items: center;
+ }
+
+ .contenedor-texto {
+ 	position: absolute;
+ 	text-align: center;
+ 	width: 400px;
+ 	height: 150px;
+ 	top: 40%;
+ 	left: 35%;
+ }
+
+ .contenedor-texto .personal {
+ 	color: black;
+ }
+
+ /*.header::after {
+ 	content: '';
+ 	height: 100vh;
+ 	width: 100%;
+ 	background-image: url(../assets/img/header_bg.jpg);
+ 	background-size: cover;
+ 	background-repeat: no-repeat;
+ 	background-position: center;
+ 	display: block; 
+ 	filter: blur(10px);
+ 	-webkit-filter: blur(10px);
+ 	transition: all 1000ms;
+ }
+
+ .header-content {
+ 	position: absolute;
+ 	z-index: 1;
+ 	top: 10%;
+ 	left: 50%;
+ 	margin-top: 10px;
+ 	margin-left: -145px;
+ 	text-align: center;
+ 	width: 100px;
+ 	height: 150px;
+ }*/
+ .first-section {
+ 	display: flex;
+ 	max-width: 1100px;
+ 	margin: 0 auto;
+ 	flex-wrap: wrap;
+ 	justify-content: center;
+ }
+
+ .about-me-section {
+ 	width: 100%;
+ 	padding-top: 70px; 
+ }
+
+ .about-me {
+ 	padding: 10px 30px 30px 10px;
+ 	display: flex;
+ 	flex-direction: column;
+ 	height: 100%;
+ 	max-width: 500px;
+ 	text-align: center;
+ 	margin-left: 300px;
+ }
+
+ /*.photo {
+ 	position: relative;
+ 	width: 480px;
+ 	min-height: 280px;
+ 	display: flex;
+ 	text-align: center;
+ }*/
+
+ .text-about-me {
+ 	font-size: 18px;
+ }
+
+ .title {
+ 	font-size: 20px;
+ 	color: #37709c;
+ }
+
+ .about-me p {
+ 	margin: 0;
+ }
+
+ .description {
+ 	text-align: center;
+ 	flex-grow: 1;
+ 	display: flex;
+ 	flex-direction: column;
+ 	/*justify-content: space-around;*/
+ 	margin-top: 15px;
+ 	right: 20%;
+ }
+
+ .description p {
+ 	text-align: center;
+ 	margin-bottom: 10px;
+ 	font-size: 18px; 
+ }
+
+ .title-section {
+ 	font-size: 18px;
+ 	text-align: center;
+ 	font-weight: bolder;
+ }
+
+ .technology-stack {
+ 	padding: 50px 30px 30px 30px;
+ 	background-color: rgba(248, 254, 255, .7);
+ }
+
+ .p-technology-stack {
+ 	text-align: center;
+ }
+
+ .div-stacks {
+ 	display: flex;
+ 	flex-direction: column;
+ 	width: 400px;
+ 	margin-bottom: 20px;
+ }
+
+ .technology-stack p span {
+ 	font-size: 25px;
+ 	color: #37709c;
+ }
+
+ .stack-icons {
+ 	display: flex;
+ 	flex-grow: 1;
+ 	justify-content: center;
+ 	flex-wrap: wrap;
+ }
+
+ .technology-stack p {
+ 	margin: 0 0 20px 0;
+ 	text-align: center;
+ }
+
+ .stack-icon {
+ 	width: auto;
+ 	margin-right: 10px;
+ 	display: flex;
+ 	flex-direction: column;
+ 	justify-content: center;
+ }
+
+ .technology-stack img {
+ 	height: auto;
+ 	max-width: 100px;
+ 	max-height: 100px;
+ }
+
+ .technology-stack-container {
+ 	display: flex;
+ 	justify-content: center;
+ 	flex-wrap: wrap;
+ 	max-width: 1000px;
+ 	margin: 0 auto;
+ }
+
+ .stack-icons {
+ 	display: flex;
+ }
+
+ .contact-me {
+ 	background-color: #5d7ceb;
+ 	padding: 0 40px 30px 40px;
+
+ }
+
+ .container-footer {
+ 	display: flex;
+ 	justify-content: center;
+ 	align-content: center;
+ 	flex-direction: column;
+ 	/*flex-wrap: wrap;*/
+ 	max-width: 1000px;
+ 	margin-right: auto;
+ 	margin-left: auto;
+ 	text-align: center;
+ 	align-items: center;
+ }
+
+ .container-footer p {
+ 	color: rgba(0, 0, 0, 0.9);
+ 	margin: 20px 20px 20px 0;
+ 	text-align: center;
+ 	align-items: center;
+ }
+
+ .text-social {
+ 	color: black;
+ 	font-weight: bold;
+ 	align-items: center;
+ 	vertical-align: middle;
+ }
+
+ .container-footer i {
+ 	color: black;
+ 	margin-right: auto;
+ 	margin-left: auto;
+ }
+
+ .icons-social {
+ 	flex-grow: 1;
+ 	display: flex;
+ 	justify-content: center;
+ 	justify-content: space-around;
+ 	align-items: center;
+ 	margin-right: 10px;
+ 	margin-left: 10px;
+ }
+
+
+  .photo-personal img {
+ 	max-width: 50%;
+ 	position: absolute;
+ 	top: 130%;
+ 	transform: translate(-50%, -50%);
+ 	display: block;
+ 	max-height: 40%;
+ 	left: 25%;
+ 	border-radius: 50%;
+ }
+
+ .photo-personal div {
+ 	clear: both;
+ }
