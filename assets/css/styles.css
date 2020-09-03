@@ -17,7 +17,7 @@
  	overflow: hidden;
  	text-align: center;
  	/*background-image: url('/assets/img/header_bg.jpg');*/
- 	background-image: radial-gradient(circle, rgba(48,43,189,0.7), rgba(11,10,18,0.7)), url(https://github.com/lucho1503/luismoreno.github.io/blob/master/imgs_back/header_bg.jpg?raw=true);
+ 	background-image: radial-gradient(circle, rgba(48,43,189,0.7), rgba(11,10,18,0.7)), url(https://github.com/lucho1503/lucho1503.github.io/blob/gh-pages/imgs_back/header_bg.jpg);
  	background-size: cover;
  	background-repeat: no-repeat;
  	background-position: center;
